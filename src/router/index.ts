@@ -2,6 +2,7 @@ import {createRouter, createWebHistory, RouteRecordRaw} from 'vue-router';
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Projects from '../views/Projects.vue';
+import E404 from '../views/E404.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -15,9 +16,14 @@ const routes: Array<RouteRecordRaw> = [
     component: Projects,
   },
   {
-    path: '*',
+    path: '/',
     name: 'Home',
     component: Home,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'E404',
+    component: E404,
   },
 ];
 
