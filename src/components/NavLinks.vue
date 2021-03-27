@@ -31,9 +31,6 @@ export default class NavLinks extends Vue {
   justify-content: space-between;
   margin: 0;
 }
-.links:hover {
-  cursor: pointer;
-}
 .links.show {
   display: flex;
 }

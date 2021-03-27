@@ -39,5 +39,6 @@ export default class NavLink extends Vue {
 }
 .link:hover {
   filter: brightness(80%);
+  cursor: pointer;
 }
 </style>
