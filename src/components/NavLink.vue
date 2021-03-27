@@ -1,7 +1,9 @@
 <template>
   <div class="navLink">
     <li>
-      <a :href="link" :class="['link', active ? 'active' : '']">{{ text }}</a>
+      <router-link :to="url" class="link" active-class="active"
+        >{{ text }}
+      </router-link>
     </li>
   </div>
 </template>
@@ -11,15 +13,13 @@ import { Options, Vue } from "vue-class-component";
 
 @Options({
   props: {
-    link: String,
+    url: String,
     text: String,
-    active: Boolean,
   },
 })
 export default class NavLink extends Vue {
-  link!: string;
+  url!: string;
   text!: string;
-  active!: boolean;
 }
 </script>
 
@@ -32,6 +32,7 @@ export default class NavLink extends Vue {
   padding: 0 10px;
   font-size: 30px;
   border-radius: 5px;
+  text-decoration: none;
 }
 .active {
   color: rgb(39, 123, 233);

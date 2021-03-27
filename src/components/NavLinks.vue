@@ -1,8 +1,8 @@
 <template>
   <ul :class="[dropdown ? 'show' : '', 'links']">
-    <NavLink url="/" text="HOME" :active="true"></NavLink>
-    <NavLink url="/about" text="ABOUT" :active="false"></NavLink>
-    <NavLink url="/projects" text="PROJECTS" :active="false"></NavLink>
+    <NavLink url="/" text="HOME"></NavLink>
+    <NavLink url="/about" text="ABOUT"></NavLink>
+    <NavLink url="/projects" text="PROJECTS"></NavLink>
   </ul>
 </template>
 

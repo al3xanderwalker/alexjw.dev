@@ -1,6 +1,8 @@
 <template>
   <NavBar></NavBar>
-  <div>t</div>
+  <div class="container">
+    <router-view />
+  </div>
   <Footer text="Copyright © 2020 Alex Walker. All rights reserved."></Footer>
 </template>
 
@@ -19,6 +21,13 @@ export default class App extends Vue {}
 </script>
 
 <style>
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #277be9;
+}
 #app {
   font-family: "Montserrat", sans-serif;
   display: grid;
@@ -31,5 +40,10 @@ body {
     no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: brightness(40%);
+}
+.container {
+  display: grid;
+  place-items: center;
+  overflow-y: scroll;
 }
 </style>
