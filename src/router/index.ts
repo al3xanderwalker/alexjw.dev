@@ -5,11 +5,6 @@ import Projects from '../views/Projects.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
     path: '/about',
     name: 'About',
     component: About,
@@ -18,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/projects',
     name: 'Projects',
     component: Projects,
+  },
+  {
+    path: '*',
+    name: 'Home',
+    component: Home,
   },
 ];
 
