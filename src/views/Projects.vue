@@ -1,6 +1,14 @@
 <template>
   <div class="projects">
     <Project
+      title="Alexjw.dev"
+      link="https://github.com/al3xanderwalker/alexjw.dev"
+      :icons="['ts', 'html', 'css', 'vue']"
+    >
+      <span>Alexjw.dev</span> the site you are currently viewing, built using
+      <span>vue</span> to further my knowledge of the framework.
+    </Project>
+    <Project
       title="Unturned Server Link"
       link="https://github.com/al3xanderwalker/UnturnedServerLink"
       :icons="['csharp', 'ts', 'database', 'discord']"

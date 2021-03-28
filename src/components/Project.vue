@@ -40,6 +40,8 @@ import { Options, Vue } from "vue-class-component";
           return ["devicon-javascript-plain", "colored"];
         case "npm":
           return ["devicon-npm-original-wordmark", "colored"];
+        case "vue":
+          return ["devicon-vuejs-plain", "colored"];
         case "bootstrap":
           return ["devicon-bootstrap-plain", "colored"];
         default:
