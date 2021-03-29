@@ -1,5 +1,5 @@
 <template>
-  <div class="navBar">
+  <header class="navBar">
     <div class="title">
       <a href="/" class="text">AlexJW.Dev</a>
       <i
@@ -10,7 +10,7 @@
       ></i>
     </div>
     <NavLinks :dropdown="dropdown"></NavLinks>
-  </div>
+  </header>
 </template>
 
 <script lang="ts">

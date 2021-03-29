@@ -4,12 +4,13 @@
     <div class="profession">Programmer, Student, Developer</div>
     <div class="findmeon">Find Me On</div>
     <div class="socials">
-      <a href="#"><img src="discord.png" height="50" hidden /></a>
-      <a href="https://steamcommunity.com/profiles/76561198247143586/"
-        ><img src="steam.png" height="50"
+      <a
+        href="https://steamcommunity.com/profiles/76561198247143586/"
+        class="social-link"
+        ><img src="steam.png" height="50" alt="Steam link"
       /></a>
-      <a href="https://github.com/al3xanderwalker"
-        ><img src="github.png" height="50"
+      <a href="https://github.com/al3xanderwalker" class="social-link"
+        ><img src="github.png" height="50" alt="Github link"
       /></a>
     </div>
   </div>

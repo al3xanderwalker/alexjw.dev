@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <img src="portrait.png" class="portrait" />
+    <img src="portrait.png" class="portrait" alt="profile picture" />
     <div class="name-age">Alex W | 17</div>
     <div class="info">
       Hello, my name is Alex Walker, online I go by Autism.Alex.<br />
