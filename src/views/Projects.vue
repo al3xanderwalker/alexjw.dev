@@ -20,12 +20,13 @@
     </Project>
     <Project
       title="Unturned Store"
-      link="https://store.alexjw.dev/store"
+      link=""
       :icons="['node', 'html', 'css', 'js', 'bootstrap', 'database', 'paypal']"
     >
-      <span>Unturned Store</span> is an e-commerce site, targetted towards game
+      <span>Unturned Store</span> was an e-commerce site, targetted towards game
       server owners. It allows them to list products for sale on their servers
-      <span>easily</span> and <span>stylishly</span>.
+      <span>easily</span> and <span>stylishly</span>. Due to it not being
+      maintained the site is no longer available.
     </Project>
     <Project
       title="Unturned Info Bot"
