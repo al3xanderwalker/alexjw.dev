@@ -3,7 +3,7 @@
   <div class="container">
     <router-view />
   </div>
-  <Footer text="Copyright © 2020 Alex Walker. All rights reserved."></Footer>
+  <Footer text="Copyright © 2022 Alex Walker. All rights reserved."></Footer>
 </template>
 
 <script lang="ts">

@@ -1,11 +1,11 @@
 <template>
   <div class="about">
     <img src="portrait.png" class="portrait" alt="profile picture" />
-    <div class="name-age">Alex W | 17</div>
+    <div class="name-age">Alex W | 18</div>
     <div class="info">
       Hello, my name is Alex Walker, online I go by Autism.Alex.<br />
-      I'm a 17 year old aspiring computer scientist hoping to become a back-end
-      or full stack web developer.<br />I'm always up for working on new
+      I'm a 18 year old aspiring computer scientist hoping to work in cyber
+      security or web development <br />I'm always up for working on new
       projects to gain experience.
     </div>
   </div>
